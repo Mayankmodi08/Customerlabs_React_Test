@@ -14,14 +14,24 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #599676;
+  font-size: calc(5px + 2vmin);
+  color: white;
+  padding: 10px;
+}
+
+.form {
+  margin-block: 20px;
   display: flex;
   flex-direction: column;
+  width: 37%
+}
+
+.schema-field {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .App-link {
